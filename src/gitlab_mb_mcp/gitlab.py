@@ -10,6 +10,7 @@ class GitLabClient:
         self._client = httpx.AsyncClient(
             headers={"PRIVATE-TOKEN": self.token},
             timeout=30.0,
+            verify=False,
         )
 
     async def get(self, path: str, params: dict | None = None) -> Any:
