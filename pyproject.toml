@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "gitlab-mb-mcp"
-version = "0.1.0"
+version = "0.1.1"
 description = "GitLab MCP server — projects, MRs, commits, files, issues"
 requires-python = ">=3.11"
 dependencies = [
